@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void exit_application(){
-        AlertDialog.Builder builder=new AlertDialog.Builder(getApplicationContext());
+        AlertDialog.Builder builder=new AlertDialog.Builder(MainActivity.this);
         builder.setMessage("정말로 종료하시겠습니까?");
         builder.setTitle("종료알림창")
                 .setCancelable(false)
