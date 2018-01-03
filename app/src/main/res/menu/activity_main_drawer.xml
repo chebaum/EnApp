@@ -5,23 +5,27 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_liveview"
+            android:icon="@mipmap/ic_videocam_black_24dp"
+            android:title="실시간 영상" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_playback"
+            android:icon="@mipmap/ic_history_black_24dp"
+            android:title="녹화 영상" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="설정" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_companyinfo"
+            android:icon="@mipmap/ic_info_black_24dp"
+            android:title="기업정보" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"
+            android:title="나가기" />
     </group>
-
+<!--
     <item android:title="Communicate">
         <menu>
             <item
@@ -34,5 +38,5 @@
                 android:title="Send" />
         </menu>
     </item>
-
+-->
 </menu>
