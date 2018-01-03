@@ -6,8 +6,11 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     tools:context="com.tistory.chebaum.enapp.splashScreen">
-<ImageView
+    <ImageView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:src="@drawable/endas_ci" />
+    android:src="@drawable/endas_logo"
+    android:layout_margin="20dp"/>
+
+   
 </LinearLayout>
